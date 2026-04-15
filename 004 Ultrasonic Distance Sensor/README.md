@@ -31,6 +31,14 @@ It simulates a basic obstacle detection or parking assist system.
 
 ---
 
+## 📸 Circuit Design & Simulation
+
+Here is the full circuit architecture designed in **Tinkercad**:
+
+![Circuit Diagram](Ultrasonic-Distance-Sensor-Circuit.png)
+
+---
+
 ## ⚙️ Working Principle
 
 ### 🔹 Input
