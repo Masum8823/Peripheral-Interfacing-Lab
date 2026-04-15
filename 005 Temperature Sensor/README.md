@@ -23,6 +23,14 @@ It simulates a basic temperature monitoring and alert system.
 
 ---
 
+## 📸 Circuit Design & Simulation
+
+Here is the full circuit architecture designed in **Tinkercad**:
+
+![Circuit Diagram](temperature-sensor-circuit.png)
+
+---
+
 ## ⚙️ Working Principle
 
 ### 🔹 Input
