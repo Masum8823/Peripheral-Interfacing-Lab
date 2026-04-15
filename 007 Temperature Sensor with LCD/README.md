@@ -37,6 +37,14 @@ It is a simple temperature monitoring system with direct visual output (no Seria
 
 ---
 
+## 📸 Circuit Design & Simulation
+
+Here is the full circuit architecture designed in **Tinkercad**:
+
+![Circuit Diagram](temperature-sensor-with-lcd-circuit.png)
+
+---
+
 ## ⚙️ Working Principle
 
 ### 🔹 Input
