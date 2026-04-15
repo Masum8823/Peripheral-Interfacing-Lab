@@ -28,6 +28,14 @@ It simulates a basic gas leakage detection system.
 
 ---
 
+## 📸 Circuit Design & Simulation
+
+Here is the full circuit architecture designed in **Tinkercad**:
+
+![Circuit Diagram](Gas-Sensor-Circuit.png)
+
+---
+
 ## ⚙️ Working Principle
 
 ### 🔹 Input
