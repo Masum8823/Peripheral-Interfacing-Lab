@@ -94,4 +94,4 @@ if(sensorVal >= threshold)
 ---
 
 ## ✅ Conclusion
-This project demonstrates how gas leakage can be detected using a sensor and how immediate al
+This project demonstrates how gas leakage can be detected using a sensor and how immediate alerts can be generated using LED and Serial output, which is useful for safety systems.
