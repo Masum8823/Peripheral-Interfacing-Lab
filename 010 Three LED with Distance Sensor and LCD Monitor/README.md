@@ -53,7 +53,13 @@ It simulates a real-world smart alert system like parking assist or obstacle det
 | Yellow LED | 5          | Output |
 
 ---
+## 📸 Circuit Design & Simulation
 
+Here is the full circuit architecture designed in **Tinkercad**:
+
+![Circuit Diagram](three_led_with_distance_sensor_and_lcd_monitor_circuit.png)
+
+---
 ## ⚙️ Working Principle
 
 ### 🔹 Input (Ultrasonic Sensor)
