@@ -38,7 +38,13 @@ It simulates a basic obstacle detection or parking assist system using only LEDs
 | Yellow LED | 5          | Output |
 
 ---
+## 📸 Circuit Design & Simulation
 
+Here is the full circuit architecture designed in **Tinkercad**:
+
+![Circuit Diagram](three_led_with_distance_sensor_circuit.png)
+
+---
 ## ⚙️ Working Principle
 
 ### 🔹 Input
