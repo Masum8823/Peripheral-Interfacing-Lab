@@ -37,7 +37,13 @@ It is a simple real-time temperature monitoring system without LCD.
 | Yellow LED | 8          | Output |
 
 ---
+## 📸 Circuit Design & Simulation
 
+Here is the full circuit architecture designed in **Tinkercad**:
+
+![Circuit Diagram](three_led_with_temperature_sensor_circuit.png)
+
+---
 ## ⚙️ Working Principle
 
 ### 🔹 Input
