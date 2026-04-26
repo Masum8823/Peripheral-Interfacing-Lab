@@ -25,7 +25,13 @@ It simulates a simple sequential lighting system.
 | Yellow LED | 9          | Output |
 
 ---
+## 📸 Circuit Design & Simulation
 
+Here is the full circuit architecture designed in **Tinkercad**:
+
+![Circuit Diagram](three_led_without_push_button_circuit.png)
+
+---
 ## ⚙️ Working Principle
 
 ### 🔹 Output Sequence
