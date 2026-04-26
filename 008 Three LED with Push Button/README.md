@@ -28,7 +28,13 @@ It demonstrates basic input handling and sequential output control.
 | Button     | 2          | Input  |
 
 ---
+## 📸 Circuit Design & Simulation
 
+Here is the full circuit architecture designed in **Tinkercad**:
+
+![Circuit Diagram](three_led_with_push_button_circuit.png)
+
+---
 ## ⚙️ Working Principle
 
 ### 🔹 Input (Push Button)
