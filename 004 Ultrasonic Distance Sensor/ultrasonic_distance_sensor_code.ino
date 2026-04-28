@@ -1,64 +1,63 @@
-// LED pins (3 colors)
-const int orangeLed = 2;   // Orange LED connected to pin 2
-const int redLed = 4;      // Red LED connected to pin 4
-const int greenLed = 3;    // Green LED connected to pin 3
+const int orangeLed = 2;   
+const int redLed = 4;      
+const int greenLed = 3;    
 
 // Ultrasonic sensor pins
-const int trigPin = 9;     // Trigger pin (sends signal)
-const int echoPin = 10;    // Echo pin (receives signal)
+const int trigPin = 9;     
+const int echoPin = 10;    
 
 void setup()
 {
-  pinMode(trigPin, OUTPUT);   // trigPin will send signal
-  pinMode(echoPin, INPUT);    // echoPin will receive signal
+  pinMode(trigPin, OUTPUT);   
+  pinMode(echoPin, INPUT);    
   
-  pinMode(redLed, OUTPUT);    // set red LED as output
-  pinMode(orangeLed, OUTPUT); // set orange LED as output
-  pinMode(greenLed, OUTPUT);  // set green LED as output
+  pinMode(redLed, OUTPUT);    
+  pinMode(orangeLed, OUTPUT); 
+  pinMode(greenLed, OUTPUT); 
   
-  Serial.begin(19600);        // start serial communication (for monitor)
+  Serial.begin(19600);        
 }
 
 void loop()
 {
-  long duration;   // variable to store time taken by sound
-  float distance;  // variable to store calculated distance
+  long duration;   
+  float distance;  
 
-  // Step 1: Send ultrasonic pulse
+  
   digitalWrite(trigPin, LOW);       
-  delayMicroseconds(2);             // small delay
+  delayMicroseconds(2);             
   digitalWrite(trigPin, HIGH);      
-  delay(10);                        // send pulse for 10 microseconds (should be delayMicroseconds)
+  delay(10);                        
   digitalWrite(trigPin, LOW);       
 
-  // Step 2: Receive echo signal
-  duration = pulseIn(echoPin, HIGH); // time for signal to return
+  
+  duration = pulseIn(echoPin, HIGH); 
 
-  // Step 3: Calculate distance
-  distance = duration * 0.034 / 2;   // convert time to distance (cm)
+  
+  distance = duration * 0.034 / 2;   
 
-  // Step 4: Print distance in Serial Monitor
+  
   Serial.println(distance);
 
-  delay(500); // wait for half a second
+  delay(500); 
 
-  // Step 5: LED control based on distance
+  
 
-  if (distance > 50)  // object is far
+  if (distance > 50)  
   {
     digitalWrite(redLed, LOW);      
-    digitalWrite(greenLed, HIGH);   // green ON (safe)
+    digitalWrite(greenLed, HIGH);  
     digitalWrite(orangeLed, LOW);   
   }
-  else if (distance > 20 && distance < 50) // object is medium distance
+  else if (distance > 20 && distance < 50) 
   {
     digitalWrite(redLed, LOW);      
     digitalWrite(greenLed, LOW);    
-    digitalWrite(orangeLed, HIGH);  // orange ON (warning)
+    digitalWrite(orangeLed, HIGH);  
   }
-  else if (distance < 20) // object is very near
+  else if (distance < 20) 
   {
-    digitalWrite(redLed, HIGH);     // red ON (danger)
+    digitalWrite(redLed, HIGH);    
     digitalWrite(greenLed, LOW);    
     digitalWrite(orangeLed, LOW);   
   }
