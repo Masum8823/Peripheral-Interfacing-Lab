@@ -58,7 +58,13 @@ The system continuously monitors gas levels and distance, then decides safety st
 | Yellow LED | 8          | Output |
 
 ---
+## 📸 Circuit Design & Simulation
 
+Here is the full circuit architecture designed in **Tinkercad**:
+
+![Circuit Diagram](Lab_Final_1349.png)
+
+---
 ## ⚙️ Working Principle
 
 ### 🔹 Input
